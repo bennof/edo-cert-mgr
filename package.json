@@ -4,7 +4,7 @@
   "type": "module",
   "description": "CLI for a small private certificate authority (https, mTLS) and SSH known_hosts, compatible with ca.sh",
   "bin": {
-    "edo-cert-mgr": "./dist/index.js"
+    "edo-cert-mgr": "dist/index.js"
   },
   "files": [
     "dist"
@@ -18,7 +18,10 @@
   "keywords": [],
   "author": "Benjamin Benno Falkner <bennof@falkner.xyz>",
   "license": "MIT",
-  "repository": "github:bennof/edo-cert-mgr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennof/edo-cert-mgr.git"
+  },
   "dependencies": {
     "@inquirer/core": "^12.0.4",
     "@inquirer/prompts": "^8.7.3",

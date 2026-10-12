@@ -6,10 +6,19 @@ It replaces the old `ca.sh` script and works on the same directory layout, so ex
 ## Installation
 
 ```sh
-npm i -g github:bennof/edo-cert-mgr
+npm i -g edo-cert-mgr
 ```
 
-npm clones the repository, builds it and installs the command `edo-cert-mgr`.
+This installs the command `edo-cert-mgr`.
+
+From source:
+
+```sh
+git clone https://github.com/bennof/edo-cert-mgr && cd edo-cert-mgr
+npm install && npm link
+```
+
+(`npm i -g github:bennof/edo-cert-mgr` does not work: for global git installs npm cannot run the TypeScript build.)
 
 Requirements:
 
