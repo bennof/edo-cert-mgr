@@ -1,0 +1,16 @@
+test
+node_modules
+dist
+
+# default certificate directory (-d ./pki): contains private keys, never commit
+pki/
+
+# keys and certificates anywhere in the project
+*.pem
+*.p12
+*.key
+*.csr
+
+.env
+.DS_Store
+npm-debug.log*
